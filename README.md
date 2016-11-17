@@ -7,14 +7,14 @@ Build and scale ecommerce with Schema. Create a free account at https://schema.i
 ```python
 import schema
 
-client = new schema.client({
-	'id': '<clientid>',
-	'key': '<clientkey>'
+client = schema.client({
+    'id': '<clientid>',
+    'key': '<clientkey>'
 })
 
 result = client.get('/categories/shoes/products', {'color': 'blue'})
 
-print result
+print(result)
 ```
 
 ## Documentation
